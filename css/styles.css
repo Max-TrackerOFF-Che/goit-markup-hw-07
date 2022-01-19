@@ -204,7 +204,7 @@ img {
 }
 /* -----------------------Студия------------------------------- */
 /* Большой блок под рекламу  */
-.hero-title {
+.hero__title {
   color: var(--background-color);
   font-weight: 900;
   font-size: 44px;
@@ -230,7 +230,7 @@ img {
   background-position: center;
 }
 /* Кнопка на странице Cтудия */
-.hero-button {
+.hero__button {
   background-color: var(--hover-effect);
   color: var(--background-color);
   font-weight: 500;
@@ -242,8 +242,8 @@ img {
   padding: 10px 32px;
   margin-top: 30px;
 }
-.hero-button:hover,
-.hero-button:active {
+.hero__button:hover,
+.hero__button:active {
   cursor: pointer;
 }
 
@@ -693,7 +693,7 @@ img {
   border-radius: 4px;
   padding: 40px;
 }
-.modal-close-button {
+.modal__close-button {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -710,13 +710,13 @@ img {
   justify-content: center;
   align-items: center;
 }
-.modal-button:hover {
+.modal__button:hover {
   color: var(--hover-effect);
 }
-.modal-form {
+.modal__form {
   margin-top: 12px;
 }
-.modal-title {
+.modal__title {
   font-size: 20px;
   line-height: 1.1;
   text-align: center;
@@ -724,7 +724,7 @@ img {
 
   color: var(--primary-text-color);
 }
-.modal-input-box {
+.modal__input-box {
   display: block;
   margin-bottom: 10px;
   font-size: 12px;
@@ -735,8 +735,8 @@ img {
   text-align: left;
 }
 
-.modal-input,
-.modal-form-comment {
+.modal__input,
+.modal__form-comment {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
@@ -745,25 +745,25 @@ img {
   padding: 0 10px 0 35px;
   transition: 250ms var(--cubic-transition) border;
 }
-.modal-input:focus,
-.modal-form-comment:focus {
+.modal__input:focus,
+.modal__form-comment:focus {
   outline: none;
   border: 1px solid var(--hover-effect);
 }
-.modal-input:focus + .modal-icon {
+.modal__input:focus + .modal__icon {
   fill: var(--hover-effect);
 }
-.modal-form-comment {
+.modal__form-comment {
   font-family: inherit;
   resize: none;
   height: 120px;
 
   padding: 12px 16px;
 }
-.modal-form-comment::placeholder {
+.modal__form-comment::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-icon {
+.modal__icon {
   position: absolute;
   display: block;
   top: 55%;
@@ -771,20 +771,20 @@ img {
 
   transition: 250ms var(--cubic-transition) fill;
 }
-.icon-phone-modal {
+.icon--phone-modal {
   width: 13px;
   height: 13px;
 }
-.icon-mail {
+.icon--mail {
   width: 15px;
   height: 13px;
 }
 
-.icon-man {
+.icon--man {
   width: 12px;
   height: 12px;
 }
-.modal-policy-box {
+.modal__policy-box {
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
@@ -793,12 +793,12 @@ img {
   align-items: center;
   margin-bottom: 30px;
 }
-.modal-policy-link {
+.modal__policy-link {
   text-decoration: underline;
   color: var(--hover-effect);
 }
 
-.modal-policy-checkbox {
+.modal__policy-checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -808,7 +808,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.modal-policy-box::before {
+.modal__policy-box::before {
   content: '';
   width: 16px;
   height: 16px;
@@ -816,17 +816,17 @@ img {
   border-radius: 2px;
   margin-right: 7px;
 }
-.modal-policy-checkbox:checked + .modal-policy-box:before {
+.modal__policy-checkbox:checked + .modal__policy-box:before {
   background-color: var(--hover-effect);
   background-image: url(../images/checkbox.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
-.modal-policy-checkbox:focus + .modal-policy-box:before {
+.modal__policy-checkbox:focus + .modal__policy-box:before {
   border: 2px solid var(--hover-effect);
 }
-.modal-button {
+.modal__button {
   background-color: var(--hover-effect);
   color: var(--background-color);
   width: 200px;
@@ -839,15 +839,15 @@ img {
   padding: 10px 55px;
   cursor: pointer;
 }
-.modal-button:hover,
-.modal-button:focus {
+.modal__button:hover,
+.modal__button:focus {
   background-color: #188ce8;
 }
 
 .portfolio-thumb {
   position: relative;
 }
-.portfolio-thumb > .porfolio-label {
+.portfolio-thumb > .portfolio-label {
   position: absolute;
   bottom: 0;
   text-transform: uppercase;
