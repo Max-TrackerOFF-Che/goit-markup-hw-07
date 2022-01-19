@@ -63,13 +63,7 @@ img {
 .footer__logo .web-title {
   color: var(--hover-effect);
 }
-.nav-list,
-.contacts,
-.button-list,
-.projects-list,
-.address__list {
-  list-style: none;
-}
+
 /* Контакты в шапке */
 .contacts__link {
   text-decoration: none;
