@@ -5,8 +5,16 @@
 @import './base/_base-styles';
 @import './base/_normalize';
 // layouts
-@import './layouts/_header';
+@import './layouts/_titles';
 @import './layouts/_what-we-do';
 @import './layouts/_our-features';
 @import './layouts/_our-team';
 @import './layouts/_our-clients';
+@import './layouts/_modal';
+@import './layouts/_backdrop';
+@import './layouts/_social-media';
+@import './layouts/_contacts';
+@import './layouts/_projects-grid';
+//components icons-buttons-logos
+@import './components/_logos.scss';
+@import './components/_buttons.scss';

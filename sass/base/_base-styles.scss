@@ -50,3 +50,41 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+/*-------------- Хэдер------------------- */
+
+.nav__main {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__logo {
+  display: flex;
+  margin-left: 10px;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  width: 294px;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.contacts {
+  display: flex;
+  width: 357px;
+  justify-content: space-between;
+}
+// Футер
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--footer-bg-color);
+  display: flex;
+  align-items: center;
+}
+.footer--align {
+  display: flex;
+  align-items: baseline;
+}
